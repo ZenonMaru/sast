@@ -1,0 +1,188 @@
+@import url(https://fonts.googleapis.com/css?family=poppins);
+
+:root{
+    --main-color: #ee9e05;
+    --color-dark: #2f2f2f;
+    --text-color: #585858;
+    --text-grey: #dfdfdf;
+    --color-darken: #202020;
+    --background: #222222;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'poppins',sans-serif;
+    
+}
+body{
+    background-image: url('../image/ctu.jpg');
+}
+header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #2f2f2f;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+}
+header h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--main-color);
+}
+.form-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+.form-container form{
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+    background: var(--color-dark);
+    text-align: center;
+    width: 400px;
+}
+.form-container form img{
+    margin-left: 10px;
+    margin-bottom: 5px;
+    height: 70px;
+    width: 70px;
+}
+.form-container form h2{
+    font-size: 30px;
+    color: var(--text-grey);
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.form-container form input{
+    width: 300px;
+    height: 40px;
+    margin: 5px;
+    padding: 10px 15px;
+    border: 1px solid var(--text-grey); 
+    border-radius: 10px;
+    background-color: var(--color-dark);
+    color: var(--text-grey);
+}
+.form-container form select{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid var(--text-grey); 
+    border-radius: 10px;
+    background-color: var(--color-dark);
+}
+.form-container form select{
+    color: var(--text-grey);
+}
+.form-container form option{
+    color: var(--color-dark);
+}
+.form-container h3{
+    margin-left: -65px;
+    margin-top: 10px;
+    width: 300px;
+    color: var(--text-grey);
+}
+::-webkit-input-placeholder{
+    color: var(--text-grey);
+    font-size: 15px;
+}
+:focus::-webkit-input-placeholder{
+    opacity: 0.5;
+}
+.pass{
+    margin-top: -30px;
+    margin-left: 35px;
+    font-size: 14px;
+}
+/* admin button */
+.btn{
+    background-color: #b87700;
+    margin-top: 10px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.btn p{
+    color: var(--color-dark);
+    font-size: 15px;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: var(--main-color);  
+}
+/* student button */
+.student_reg{
+    background-color: #b87700;
+    margin-top: 10px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.student_reg p{
+    color: var(--color-dark);
+    font-size: 15px;
+    font-weight: bold;
+    padding: .5rem;
+}
+.student_reg:hover{
+    background-color: var(--main-color);  
+}
+/* faculty button */
+.faculty_reg{
+    background-color: #b87700;
+    margin-top: 10px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.faculty_reg p{
+    color: var(--color-dark);
+    font-size: 15px;
+    font-weight: bold;
+    padding: .5rem;
+}
+.faculty_reg:hover{
+    background-color: var(--main-color);  
+}
+.login p{
+    margin-top: 30px;   
+    font-size: 14px;
+    color: var(--text-grey);
+    align-items: center;
+    justify-content: center;
+}
+.login a{
+    color: var(--main-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+.login a:hover{
+    color: var(--text-grey);
+}
+div .alert{
+    max-width: 300px;
+    margin-left: 30px;
+    z-index: 1;
+}

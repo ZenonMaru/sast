@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=poppins);
+html,body{
+    background-image: url('../image/ctu.jpg');
+    font-family: 'poppins', sans-serif;
+}
+:root{
+    --main-color: #d68b00;
+    --color-dark: #2f2f2f;
+    --text-grey: #dfdfdf;
+    --text-color: #646464;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+}
+::selection{
+    color: black;
+    background: #ee9e05;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container .form{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #2f2f2f;
+    color: #fff;
+    padding: 30px 35px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+    width: 400px;
+    
+}
+.container .form h2{
+font-weight: bold;
+}
+.container .form img{
+    margin-left: 10px;
+    margin-bottom: 5px;
+    height: 70px;
+    width: 70px;
+}
+.container .form form .form-control{
+    width: 300px;
+    height: 40px;
+    margin: 5px;
+    padding: 10px 15px;
+    border: 1px solid var(--text-grey); 
+    border-radius: 10px;
+    background-color: var(--color-dark);
+    color: var(--text-grey);
+}
+.container .form form .forget-pass{
+    margin: -15px 0 15px 0;
+    
+}
+.container .form form .forget-pass a{
+   font-size: 15px;
+   
+}
+.container .form form .button{
+    background-color: #b87700;
+    margin-top: 10px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.container .form form .button:hover{
+    background: #ee9e05;
+}
+.container .form form .link{
+    padding: 5px 0;
+}
+.container .form form .link a{
+    color: #ee9e05;
+}
+.container .login-form form p{
+    font-size: 14px;
+}
+.container .row .alert{
+    font-size: 14px;
+}
+::-webkit-input-placeholder{
+    color: var(--text-grey);
+    font-size: 15px;
+}
+:focus::-webkit-input-placeholder{
+    opacity: 0.5;
+}

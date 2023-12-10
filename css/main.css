@@ -1,0 +1,95 @@
+:root{
+    --main-color: #ee9e05;
+    --color-dark: #2f2f2f;
+    --text-grey: #dfdfdf;
+    --text-color: #646464;
+    --primary: #5786b8;
+    --secondary: #6c757d;
+    --success: #28a745;
+    
+}
+.navbar-dark{
+    background-color: var(--primary);
+}
+.h3, h3{
+    font-size: 1.5rem;
+}
+/* admin page logo */
+img{
+    margin-left: -20px;
+    margin-top: -5px;
+    height: 40px;
+    width: 40px;
+}
+[class*=sidebar-dark] .brand-link, [class*=sidebar-dark] .brand-link .pushmenu{
+    color: var(--color-dark);
+}
+.layout-navbar-fixed .wrapper .sidebar-dark-primary .brand-link:not([class*=navbar]){
+    background-color: var(--main-color);
+}
+.callout.callout-info{
+    border-left-color: var(--main-color);
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: whitesmoke;
+}
+.small-box .icon{
+    color: var(--main-color);
+}
+/* sidebar */
+[class*=sidebar-dark-]{
+    background-color: var(--main-color);
+}
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active, 
+.sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active{
+    background-color: var(--color-dark);
+    color: var(--text-grey);
+}
+[class*=sidebar-dark-] .sidebar a{
+    color: var(--color-dark);
+}
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link{
+    color: var(--color-dark);
+}
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active, 
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active:focus, 
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active:hover{
+    background-color: var(--color-dark);
+    color: var(--main-color);
+}
+[class*=sidebar-dark-] .nav-flat .nav-item .nav-treeview>.nav-item>.nav-link, 
+[class*=sidebar-dark-] .nav-flat .nav-item .nav-treeview>.nav-item>.nav-link.active{
+    border-color: var(--color-dark);
+}
+
+.card-primary.card-outline{
+    border-top-color: var(--main-color);
+}
+.card-info.card-outline{
+    border-top-color: var(--main-color);
+}
+.card-success.card-outline{
+    border-top-color: var(--main-color);
+}
+.border-primary{
+    border-color: var(--main-color)!important;
+}
+.card-info:not(.card-outline)>.card-header{
+    background-color: var(--main-color);
+}
+/* Question form */
+.card-primary:not(.card-outline)>.card-header, .card-primary:not(.card-outline)>.card-header a{
+    color: var(--color-dark);
+}
+.bg-gradient-primary {
+    background: var(--color-dark) linear-gradient(180deg,#268fff,#007bff) repeat-x!important;
+    color: #fff;
+}
+/* list group */
+.list-group-item.active {
+    z-index: 2;
+    color: white;
+    background-color: var(--text-color);
+    border-color: var(--text-color);
+    font-display: none;
+  }
